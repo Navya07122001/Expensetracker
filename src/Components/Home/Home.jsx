@@ -175,7 +175,7 @@ function Home() {
             </div>
             <Modal
             isOpen={openBalform}
-            onRequestClose={closeModal}
+           
             style={customStyles1}
             contentLabel="Example Modal"
             >
@@ -183,7 +183,7 @@ function Home() {
             </Modal>
             <Modal
             isOpen={modalIsOpen1}
-            onRequestClose={closeModal}
+            onRequestClose={closeModal1}
             style={customStyles}
             contentLabel="Example Modal"
             >
@@ -194,7 +194,7 @@ function Home() {
                         expense={setExpense}
                         setIsopen={setIsOpen1}
                         expenselist={expenselist}
-                        closeModal={closeModal}
+                        closeModal={closeModal1}
                         setExpenselist={setExpenselist}
           />
       </Modal>

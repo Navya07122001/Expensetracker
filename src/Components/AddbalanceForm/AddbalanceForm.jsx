@@ -25,19 +25,12 @@ const AddbalanceForm = ({close,setBalance,open}) => {
  
   return (
     <div className={styles.expenseform}>
-        <div className={styles.box}>
         <div className={styles.heading}>Add Balance</div>
-        <div className={styles.inputfields}>
-        <form onSubmit={handleBalance}>
-          
-        <input className={styles.inputfield} placeholder='Income Amount' onChange={(e)=>setIncome(e.target.value)} />
-        <button className={styles.buttonstyle1} >Add Balance</button>
-        <button className={styles.buttonstyle2} onClick={close}>Cancel</button>
-       
+        <form onSubmit={handleBalance} className={styles.inputfields}>
+         <input className={styles.inputfield} placeholder='Income Amount' onChange={(e)=>setIncome(e.target.value)} />
+         <button className={styles.buttonstyle1} >Add Balance</button>
+         <button className={styles.buttonstyle2} onClick={close}>Cancel</button>
         </form>
-        </div>
-      </div>
-        
     </div>
   )
 }

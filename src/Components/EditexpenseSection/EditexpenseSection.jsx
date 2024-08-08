@@ -79,16 +79,23 @@ const EditexpenseSection = ({ close, id, expenselist, setExpenselist, setBalance
             />
           </div>
           <div className={styles.inputfields}>
-            <input
-              className={styles.inputfield}
-              placeholder='Select Category'
-              value={formdata.category}
-              onChange={handleCategory}
-            />
+           
+            <select
+            className={styles.inputfieldselect}
+            value={formdata.category}
+            onChange={handleCategory}
+            required
+          >
+            <option value="">Select Category</option>
+            <option value="Food">Food</option>
+            <option value="Travel">Travel</option>
+            <option value="Entertainment">Entertainment</option>
+          </select>
             <input
               className={styles.inputfield}
               placeholder='dd/mm/yyyy'
               value={formdata.date}
+              type="date"
               onChange={handleDate}
             />
           </div>
