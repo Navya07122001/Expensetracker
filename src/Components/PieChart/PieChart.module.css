@@ -1,0 +1,43 @@
+.pie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.colors {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px; /* Reduce margin-top */
+    padding: 0; /* Remove padding */
+}
+
+.legendItem {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Remove margin */
+}
+
+.legendItem div {
+    width: 20px;
+    height: 5px; /* Box size */
+    margin-right: 5px; /* Space between box and text */
+}
+
+.foodComp {
+    background-color: #A000FF;
+}
+
+.entmtComp {
+    background-color: #FFBB28;
+}
+
+.travelComp {
+    background-color: #FF8042;
+}
+
+.legendItem span {
+    color: white;
+}

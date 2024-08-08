@@ -1,0 +1,63 @@
+.expenseform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 18rem;
+    width: 28rem;
+    border-radius: 1rem;
+    background-color: #EFEFEF;
+}
+.heading{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-family: 'ubuntu';
+}
+.inputfield{
+    border: 1rem;
+    border-radius: 0.5rem;
+    margin:0.8rem;
+    height:2.5rem;
+    width:11rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color:#919191;
+    padding-left: 0.7rem;
+    font-family: 'Open Sans';
+}
+.inputfields{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttonstyle1{
+    background-color: #F4BB4A;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    border: 1rem;
+    border-radius: 0.5rem;
+    margin:0.8rem;
+    height:2.5rem;
+    width:12rem;
+    font-family: 'Open Sans';
+}
+.buttonstyle2{
+    background-color: #E3E3E3;
+    color:#000000;
+    border: 1rem;
+    border-radius: 0.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin:0.8rem;
+    height:2.5rem;
+    width:6.2rem;
+    font-family: 'Open Sans';
+}
